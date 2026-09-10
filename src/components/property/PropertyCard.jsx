@@ -19,8 +19,10 @@ export default function PropertyCard({ property, royal = true }) {
           src={
             property.image ||
             (property.projectSlug === 'avm-grand-meadows'
-              ? 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80'
-              : 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80')
+              ? 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85'
+              : property.projectSlug === 'avm-solitaire-enclave'
+              ? 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=85'
+              : 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85')
           }
           alt={property.title || `Plot ${property.plotNumber}`}
           loading="lazy"

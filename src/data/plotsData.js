@@ -23,7 +23,7 @@ export const plots = [
     coordinates: { x: 40, y: 50, width: 48, height: 60 },
     amenities: ['40ft Black Top Road', 'Underground Water Line', 'East Facing Vastu Compliant', 'Park Proximity'],
     highlights: 'Vastu-perfect East facing 150 Gaj residential plot with quick access to clubhouse and entrance gate.',
-    image: 'https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -48,7 +48,7 @@ export const plots = [
     coordinates: { x: 92, y: 50, width: 56, height: 60 },
     amenities: ['60ft Main Boulevard', 'Corner Advantage (Dual Access)', 'North Facing', 'Opposite Theme Park'],
     highlights: 'Premium North-facing 180 Gaj corner plot located directly on the 60-foot main boulevard facing the central garden.',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -97,7 +97,7 @@ export const plots = [
     coordinates: { x: 204, y: 50, width: 62, height: 60 },
     amenities: ['Ishan Corner (North-East)', '60ft Avenue Frontage', 'Wide Setbacks Allowed', 'Bank Loan Pre-approved'],
     highlights: 'Rare North-East (Ishan) corner plot with dual frontage on 60ft and 40ft cross roads. Ideal for luxury duplex villa.',
-    image: 'https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -146,6 +146,7 @@ export const plots = [
     coordinates: { x: 40, y: 125, width: 64, height: 60 },
     amenities: ['Grand 250 Gaj Footprint', '60ft Wide Sector Road', 'Park Facing View', 'Ready Registry'],
     highlights: 'Spacious 250 Gaj parcel designed for grand independent residences with front lawn and stilt parking provision.',
+    image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -194,6 +195,7 @@ export const plots = [
     coordinates: { x: 162, y: 125, width: 52, height: 60 },
     amenities: ['Corner Plot', 'North Facing', 'Dual 40ft Road Access', 'Lush Green Boundary'],
     highlights: 'Affordable North-facing 150 Gaj corner plot under ₹27 Lakh with high ventilation and natural sunlight.',
+    image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -268,6 +270,7 @@ export const plots = [
     coordinates: { x: 40, y: 200, width: 50, height: 60 },
     amenities: ['Direct 80ft Master Sector Road', 'North Facing', 'High Commercial Appreciation', 'Ring Road 1.8km'],
     highlights: 'Prime front-row 150 Gaj plot touching the 80ft sector road with enormous appreciation headroom as Ring Road completes.',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -292,6 +295,7 @@ export const plots = [
     coordinates: { x: 94, y: 200, width: 60, height: 60 },
     amenities: ['80ft Master Road Corner', 'North Facing', 'Dual Entry Options', 'Commercial Potential'],
     highlights: 'Flagship 200 Gaj North-facing corner plot on 80ft road under ₹32 Lakh. Outstanding investment anchor.',
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -364,6 +368,7 @@ export const plots = [
     coordinates: { x: 268, y: 200, width: 68, height: 60 },
     amenities: ['60ft Cross Avenue', 'North Facing', 'Park Facing View', 'Rainwater Harvesting Pit'],
     highlights: 'Quarter-acre villa plot (250 Gaj) situated directly opposite landscaped botanical gardens.',
+    image: 'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
 
@@ -390,6 +395,7 @@ export const plots = [
     coordinates: { x: 40, y: 275, width: 56, height: 60 },
     amenities: ['60ft Entrance Road Corner', 'North Facing', 'Walk to Infosys & Tech Mahindra', 'Clubhouse Access'],
     highlights: 'High-yield tech corridor plot. Excellent build-to-rent rental demand from tech executive tenants.',
+    image: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -414,6 +420,7 @@ export const plots = [
     coordinates: { x: 100, y: 275, width: 58, height: 60 },
     amenities: ['East Facing', 'Underground Fiber Optic Ready', 'Smart Water Meters', 'EV Charging Point Provision'],
     highlights: 'Standard 200 Gaj rectangular footprint with optimal frontage for modern high-tech duplex bungalow.',
+    image: 'https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {
@@ -438,6 +445,7 @@ export const plots = [
     coordinates: { x: 162, y: 275, width: 75, height: 60 },
     amenities: ['Grand 300 Gaj Corner', 'North-East Facing', '60ft Avenue', 'Direct View of Central Lake'],
     highlights: 'The most prestigious plot in the enclave. Expansive corner parcel facing the community water feature.',
+    image: 'https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?auto=format&fit=crop&w=1200&q=85',
     isFeatured: true
   },
   {

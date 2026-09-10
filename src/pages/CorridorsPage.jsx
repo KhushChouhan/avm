@@ -9,7 +9,6 @@ import {
   Sparkles, 
   Car, 
   Building, 
-  Crown,
   CheckCircle2,
   ExternalLink
 } from 'lucide-react';
@@ -74,7 +73,7 @@ export default function CorridorsPage() {
         'Immediate high demand for build-to-lease duplexes and luxury corporate stay villas'
       ],
       linkedProjectIds: ['avm-solitaire-enclave'],
-      bannerImg: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85'
+      bannerImg: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=85'
     },
     {
       id: 'tonk-road',

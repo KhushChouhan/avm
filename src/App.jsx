@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import PlotsPage from './pages/PlotsPage';
 import PlotDetailPage from './pages/PlotDetailPage';
@@ -14,6 +15,26 @@ import SiteVisitModal from './components/lead/SiteVisitModal';
 import PlotCalculatorModal from './components/tools/PlotCalculatorModal';
 import MobileBottomBar from './components/layout/MobileBottomBar';
 import './App.css';
+
+function ScrollToTop() {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      setTimeout(() => {
+        const id = hash.replace('#', '');
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [pathname, hash]);
+
+  return null;
+}
 
 function Shell({ children }) {
   return (
@@ -33,6 +54,7 @@ function Shell({ children }) {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Shell>
         <Routes>
           <Route path="/" element={<Home />} />

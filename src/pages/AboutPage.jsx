@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { 
   ShieldCheck, 
-  Crown, 
   Sparkles, 
   Award, 
   CheckCircle2, 
@@ -132,7 +131,7 @@ export default function AboutPage() {
             className="about-hero-center"
           >
             <div className="royal-crest-pill">
-              <Crown size={14} className="sparkle-gold" />
+              <Sparkles size={14} className="sparkle-gold" />
               <span>THE SOVEREIGN HERITAGE OF AVM LAND ESTATES</span>
             </div>
             <h1>
@@ -186,7 +185,7 @@ export default function AboutPage() {
                   />
                   <div className="founder-portrait-overlay" />
                   <div className="founder-seal-badge">
-                    <Crown size={22} color="#06111c" />
+                    <img src="/avm-logo.jpg" alt="AVM Official Seal" className="founder-seal-img" />
                   </div>
                   <div className="founder-caption-plaque">
                     <strong>Avnish Jain</strong>
@@ -404,7 +403,9 @@ export default function AboutPage() {
 
               <div className="hq-action-box">
                 <div className="hq-action-card">
-                  <Crown size={32} className="sparkle-gold" style={{ margin: '0 auto 14px', display: 'block' }} />
+                  <div className="crest-logo-circle" style={{ margin: '0 auto 14px', width: 42, height: 42 }}>
+                    <img src="/avm-logo.jpg" alt="AVM Official Seal" className="hero-crest-logo-img" />
+                  </div>
                   <h3>Schedule Your Consultation</h3>
                   <p>Private chauffeur pickup provided from anywhere in Jaipur city.</p>
                   <button 

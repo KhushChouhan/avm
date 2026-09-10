@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Filter, Search, Sparkles, MapPin, CheckCircle2, AlertCircle, XCircle, ArrowUpRight, Compass, Crown } from 'lucide-react';
+import { Filter, Search, Sparkles, MapPin, CheckCircle2, AlertCircle, XCircle, ArrowUpRight, Compass } from 'lucide-react';
 import { plots } from '../data/plotsData';
 import { projects } from '../data/projectsData';
 import { Eyebrow, Reveal } from '../components/common/UI';
@@ -23,9 +23,9 @@ export default function PlotsPage() {
       if (plot.totalPrice > maxBudget) return false;
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
-        const matchNumber = plot.plotNumber.toLowerCase().includes(q);
-        const matchProject = plot.projectName.toLowerCase().includes(q);
-        const matchLocation = plot.location.toLowerCase().includes(q);
+        const matchNumber = String(plot.plotNumber).toLowerCase().includes(q);
+        const matchProject = String(plot.projectName).toLowerCase().includes(q);
+        const matchLocation = String(plot.location).toLowerCase().includes(q);
         const matchGaj = `${plot.areaGaj}`.includes(q);
         if (!matchNumber && !matchProject && !matchLocation && !matchGaj) return false;
       }

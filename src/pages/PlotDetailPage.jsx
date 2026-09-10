@@ -5,9 +5,10 @@ import { projects } from '../data/projectsData';
 import { Eyebrow } from '../components/common/UI';
 
 export default function PlotDetailPage() {
-  const { id } = useParams();
-  const plot = plots.find(p => p.id === id) || plots[0];
-  const project = projects.find(p => p.slug === plot.projectSlug) || projects[0];
+  const { id, slug } = useParams();
+  const targetId = id || slug;
+  const plot = plots.find(p => p.id === targetId || p.slug === targetId || String(p.plotNumber) === targetId) || plots[0];
+  const project = projects.find(p => p.slug === plot?.projectSlug) || projects[0];
 
   // Rajasthan Registry estimations
   const stampDuty = Math.round(plot.totalPrice * 0.06);
@@ -25,7 +26,7 @@ export default function PlotDetailPage() {
               ? 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=85'
               : plot.projectSlug === 'avm-grand-meadows'
               ? 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85'
-              : 'https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1600&q=85')
+              : 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=85')
           }
           alt={`Plot ${plot.plotNumber} Dossier`}
         />
